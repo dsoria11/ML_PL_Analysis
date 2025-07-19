@@ -1,5 +1,5 @@
-# ML_PL_Analysis
-A machine learning (ML) model to look at photoluminescence (PL) data from our InGaAs quantum wells. This model will provide insight on future quantum wells grown by using a supervised learning agent.
+# Utilizing Machine Learning to Predict Quantum Well Photoluminescence Growth
+A machine learning (ML) model used to look at photoluminescence (PL) data from our InGaAs quantum wells. This model will provide insight on future quantum wells grown by using a supervised learning agent.
 
 ## Introduction
 This is a small project that extracts the peak photoluminescense (PL) and intensity out of a previously measured Quantum Well sample. Then, using a machine learning model, you can analyze this with other relevant input parameters to predict peak PL measurements for future Quantum Wells grown.

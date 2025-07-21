@@ -1,4 +1,4 @@
-# Utilizing Machine Learning to Predict Quantum Well Photoluminescence Growth
+# Machine Learning Assisted Prediction for Quantum Well Photoluminescence Growth
 A machine learning (ML) model used to look at photoluminescence (PL) data from our InGaAs quantum wells. This model will provide insight on future quantum wells grown by using a supervised learning agent.
 
 ## Introduction

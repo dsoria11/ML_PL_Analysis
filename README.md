@@ -12,4 +12,48 @@ For more information, please visit their respective repositories and documentati
 - [GradientBoostingRegressor](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.GradientBoostingRegressor.html)
 - [MultiOutputRegressor](https://scikit-learn.org/stable/modules/generated/sklearn.multioutput.MultiOutputRegressor.html)
 
+## Virtual Environment Setup
+1. Install necessary packages:
+   ```bash
+   pip install pandas
+   pip install numpy
+   pip install scikit-learn
+   pip install matplotlib
+   pip install openpyxl
+   ```
+## How to Use the Code
+1. Create the Raw PL Spectra Folder
+   - Inside your desired directory (e.g. `PL_ML_Project`), create a new folder named `PL_Spectra_Raw`
+   - Placec all your individual raw PL spectrum files (e.g., `G25-017-center.csv`, etc.) into this `PL_Spectra_Raw` folder.
+   - The filename should exactly match the `QW_Sample` ID you'll use in your `quantum_well_data.xlsx` file.
+   - Internal Format: Each file should have comment lines starting with #, followed by a header line (e.g., `lambda [nm]   intensity [a.u.]`), and then tab-separated numerical data.
+
+2. Create your `quantum_well_data.xlsx` file
+   - Populate this file with your actual data inputs. For example:
+       - `QW_Sample`
+       - `In_Fraction`
+       - `WellWidth_nm`
+       - `GrowthTemp_Pyro`
+       - `PL_Correction_Factor`
+       - `QW_Temp_Rise_C`
+       - `InGaAs_QW_GrowthRate_ML_Sec`
+
+3. Configure and Run the Code
+   ```bash
+   pl_peak_extractor.py
+   ```
+   - Verify a file named `extracted_pl_peaks.csv` (or `.xlsx`) should appear in your `PL_ML_Project` directory
+
+  ```bash
+  main_ml_script.py
+  ```
+  - Ensure `FEATURE_COLUMNS = ['GrowthTemp_Pyro', 'PL_Correction_Factor', etc.]` match your exact varying column names
+  - Adjust `IDEAL_PL_WAVELENGTH ` and `IDEAL_PL_INTENSITY` to your specific targets
+  - Adjust example prediciton values in the `--- Example Recipes ---` section
+  - Save the file and run:
+  ```bash
+  python main_ml_script.py
+  ```
+## Example Plots
+   
 

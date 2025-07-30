@@ -45,13 +45,13 @@ For more information, please visit their respective repositories and documentati
    - Verify a file named `extracted_pl_peaks.csv` (or `.xlsx`) appears in your `PL_ML_Project` directory
 
 4. Configure and Run the Machine Learning Code
-  - Ensure `FEATURE_COLUMNS = ['GrowthTemp_Pyro', 'PL_Correction_Factor', etc.]` match your exact varying column names
-  - Adjust `IDEAL_PL_WAVELENGTH ` and `IDEAL_PL_INTENSITY` to your specific targets
-  - Adjust example prediciton values in the `--- Example Recipes ---` section
-  - Save the file and run:
-  ```bash
-  python main_ml_script.py
-  ```
+   - Ensure `FEATURE_COLUMNS = ['GrowthTemp_Pyro', 'PL_Correction_Factor', etc.]` match your exact varying column names
+   - Adjust `IDEAL_PL_WAVELENGTH ` and `IDEAL_PL_INTENSITY` to your specific targets
+   - Adjust example prediciton values in the `--- Example Recipes ---` section
+   - Save the file and run:
+   ```bash
+   python main_ml_script.py
+   ```
 ## Example Plots
    
 

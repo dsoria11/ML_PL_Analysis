@@ -42,7 +42,7 @@ For more information, please visit their respective repositories and documentati
    ```bash
    python pl_peak_extractor.py
    ```
-   - Verify a file named `extracted_pl_peaks.csv` (or `.xlsx`) should appear in your `PL_ML_Project` directory
+   - Verify a file named `extracted_pl_peaks.csv` (or `.xlsx`) appears in your `PL_ML_Project` directory
 
   ```bash
   main_ml_script.py

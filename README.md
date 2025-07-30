@@ -52,7 +52,12 @@ For more information, please visit their respective repositories and documentati
 ## Example Plots
 Plot of Predicted vs Actual Wavelength & Intensity
 
-![Example Plot]()
+![Example Plot](./Predicted vs Actual Peaks.png)
+
+Example of Photoluminsence Plot
+
+![Example Plot](./sample_for_PL_demonstration.png)
+
 
 
    

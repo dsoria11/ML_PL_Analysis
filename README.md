@@ -50,5 +50,10 @@ For more information, please visit their respective repositories and documentati
    python main_ml_script.py
    ```
 ## Example Plots
+Plot of Predicted vs Actual Wavelength & Intensity
+
+![Example Plot]()
+
+
    
 

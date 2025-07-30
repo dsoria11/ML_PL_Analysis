@@ -24,7 +24,7 @@ For more information, please visit their respective repositories and documentati
 ## How to Use the Code
 1. Create the Raw PL Spectra Folder
    - Inside your desired directory (e.g. `PL_ML_Project`), create a new folder named `PL_Spectra_Raw`
-   - Placec all your individual raw PL spectrum files (e.g., `G25-017-center.csv`, etc.) into this `PL_Spectra_Raw` folder.
+   - Place all your individual raw PL spectrum files (e.g., `G25-017-center.csv`, etc.) into this `PL_Spectra_Raw` folder.
    - The filename should exactly match the `QW_Sample` ID you'll use in your `quantum_well_data.xlsx` file.
    - Internal Format: Each file should have comment lines starting with #, followed by a header line (e.g., `lambda [nm]   intensity [a.u.]`), and then tab-separated numerical data.
 
@@ -40,7 +40,7 @@ For more information, please visit their respective repositories and documentati
 
 3. Configure and Run the Code
    ```bash
-   pl_peak_extractor.py
+   python pl_peak_extractor.py
    ```
    - Verify a file named `extracted_pl_peaks.csv` (or `.xlsx`) should appear in your `PL_ML_Project` directory
 

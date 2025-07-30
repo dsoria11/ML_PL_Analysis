@@ -33,21 +33,18 @@ For more information, please visit their respective repositories and documentati
        - `QW_Sample`
        - `In_Fraction`
        - `WellWidth_nm`
-       - `GrowthTemp_Pyro`
-       - `PL_Correction_Factor`
-       - `QW_Temp_Rise_C`
-       - `InGaAs_QW_GrowthRate_ML_Sec`
+       - etc.
 
 3. Configure and Run the Peak Extraction Code
    ```bash
    python pl_peak_extractor.py
    ```
-   - Verify a file named `extracted_pl_peaks.csv` (or `.xlsx`) appears in your `PL_ML_Project` directory
+   - Verify a file named `extracted_pl_peaks.csv` (or `.xlsx`) appears in your `PL_ML_Project` directory.
 
 4. Configure and Run the Machine Learning Code
-   - Ensure `FEATURE_COLUMNS = ['GrowthTemp_Pyro', 'PL_Correction_Factor', etc.]` match your exact varying column names
-   - Adjust `IDEAL_PL_WAVELENGTH ` and `IDEAL_PL_INTENSITY` to your specific targets
-   - Adjust example prediciton values in the `--- Example Recipes ---` section
+   - Ensure `FEATURE_COLUMNS = ['GrowthTemp_Pyro', 'PL_Correction_Factor', etc.]` match your exact varying column names.
+   - Adjust `IDEAL_PL_WAVELENGTH ` and `IDEAL_PL_INTENSITY` to your specific targets.
+   - Adjust example prediciton values in the `--- Example Recipes ---` section.
    - Save the file and run:
    ```bash
    python main_ml_script.py

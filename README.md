@@ -50,11 +50,11 @@ For more information, please visit their respective repositories and documentati
    python main_ml_script.py
    ```
 ## Example Plots
-Plot of Predicted vs Actual Wavelength & Intensity
+Plot of Predicted vs Actual Peak Wavelength & Peak Intensity
 
 ![Example Plot](./predicted_vs_actual_peaks.png)
 
-Example of Photoluminsence Plot
+Example of Photoluminsence Plot for Training
 
 ![Example Plot](./sample_for_PL_demonstration.jpg)
 
